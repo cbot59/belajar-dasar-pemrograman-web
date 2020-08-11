@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: auto;
+}
+
+h4 {
+  margin: auto;
+}
+
+nav {
+  position: sticky;
+  margin: 0 1em;
+  box-shadow: 0 4px 4px 8px #03dac5;
+  border-radius: 4px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.exp-section {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.exp-overview {
+  margin: 1em 1em;
+  line-height: 0.5em;
+}
+
+.exp-detail {
+  margin: 0 2em;
+  line-height: 1.25em;
+  text-align: justify;
+}
+
+.card {
+  box-shadow: 0 4px 4px 8px #03dac5;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+figure img {
+  max-width: 200px;
+}
+
+@media screen and (min-width: 720px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #content {
+    flex-basis: 75%;
+  }
+
+  aside {
+    flex-basis: 25%;
+  }
+
+  .flex-row {
+    display: flex;
+  }
+}
